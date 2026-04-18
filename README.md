@@ -1,82 +1,58 @@
- A simple and efficient CGPA Calculator built using C++. This program helps students calculate their GPA (Grade Point Average) for a semester and overall CGPA based on course grades and credit hours.
-📌 Features
-📥 Take input for number of courses
-📝 Enter grade and credit hours for each course
-🧮 Calculate:
-Total Credits
-Total Grade Points
-📊 Compute:
-Semester GPA
-Overall CGPA
-📋 Display:
-Individual course details
-Final CGPA
-⚙️ How It Works
-User inputs total number of courses.
-For each course:
-Enter grade (A, B, C, etc.)
-Enter credit hours
-Program converts grades into grade points.
-Calculates:
-Total Grade Points = Grade × Credit Hours
-GPA = Total Grade Points / Total Credits
-Displays the final CGPA.
-🧾 Grade Point System (Example)
-Grade
-Grade Point
-A
-10
-B
-8
-C
-6
-D
-4
-F
-0
-(You can modify this system in the code as per your university rules.)
-💻 Technologies Used
-C++
-Standard Input/Output
-▶️ How to Run
-Clone the repository:
-Bash
-git clone https://github.com/your-username/cgpa-calculator.git
-Navigate to the project folder:
-Bash
-cd cgpa-calculator
-Compile the code:
-Bash
-g++ cgpa.cpp -o cgpa
-Run the program:
-Bash
-./cgpa
-📷 Sample Output
+CGPA Calculator - C++
+Markdown
+# 🎓 CGPA Calculator (C++)
 
+A simple and efficient CGPA Calculator developed using C++. This project helps students calculate their semester GPA and overall CGPA based on course grades and credit hours.
+
+## 🚀 Features
+- Input number of courses
+- Enter grades and credit hours for each course
+- Calculates:
+  - Total Credits
+  - Total Grade Points
+  - GPA (per semester)
+  - Overall CGPA
+- Displays individual course details
+- User-friendly console interface
+
+## 🛠️ Technologies Used
+- C++
+- Standard Template Library (STL)
+
+## 📂 How It Works
+1. Enter the number of courses.
+2. Input grade and credit hours for each subject.
+3. The program calculates:
+   - Grade Points (Grade × Credit Hours)
+   - Total Credits
+   - GPA / CGPA
+4. Displays final result on screen.
+
+## 💡 Example
 Enter number of courses: 3
+Course 1: Grade = 8, Credit = 3
+Course 2: Grade = 9, Credit = 4
+Course 3: Grade = 7, Credit = 2
+CGPA = 8.22
 
-Course 1:
-Enter Grade: A
-Enter Credit Hours: 4
+## 📸 Output
+Displays all course details along with final CGPA.
 
-Course 2:
-Enter Grade: B
-Enter Credit Hours: 3
+## 🎯 Purpose
+This project is created for learning basic C++ concepts like:
+- Loops
+- Arrays
+- Input/Output
+- Basic calculations
 
-Course 3:
-Enter Grade: C
-Enter Credit Hours: 2
+## 📌 Future Improvements
+- Add GUI version
+- Add grade validation system
+- Store student data in file
 
-Total Credits: 9
-Total Grade Points: 68
+## 👨‍💻 Author
+Rahul Rajput
 
-CGPA: 7.55
-🚀 Future Improvements
-Add GUI (using Qt or other libraries)
-Support percentage to grade conversion
-Store student data in file
-Multi-semester CGPA calculation
-🤝 Contributing
-Feel free to fork this repo and improve the project!
-📄 License
-This project is open-source and free to use.
+---
+
+⭐ If you like this project, don't forget to star the repository!
